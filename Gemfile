@@ -1,10 +1,7 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll', '3.3.1'
-
-group :jekyll_plugins do
-	gem 'jekyll-feed', '0.6.0'
-	gem 'jekyll-seo-tag', '2.1.0'
-	gem 'jekyll-paginate', '1.1.0'
-	gem 'jekyll-sitemap', '1.0.0'
-end
+gem "jekyll", "~> 3.2.1"
+gem "jekyll-sitemap"
+gem "jekyll-gist"
+gem 'jekyll-mentions'
+gem 'jekyll-feed'
